@@ -1,13 +1,13 @@
-Securities finance derivatives (total return swaps) - quantitative overview
+Securities finance derivatives - Research and specific features
 
 I – Introduction
 
-Total return swaps (TRS), depsite their "delta one" characteristic, are derivatives among others, and then can be analyzed/priced with legacy mechanisms used for other derivatives. This repository aims to target two mathematical modelization and numerical goals which will be detailed later
+At first glance, Securities finance products, both synthetic (TRS) and physical (repo), are "simple" products. But their OTC characteristics and their strong links with other asset classes can lead to very specific features and calculation topics. the goal of this repository is highlighting, as most as possible, those special and interesting features
 
-II – Models
+II – Models and features
 
-TRS are OTC swaps which embedd both "worlds", rate and equity. Pricing models used for Convertible Bond (for example pricing equation and finite difference) can then be also used in order to model those products. That will be the first target : a specific pricing documentation about TRS, from simple case to exotics (as OTC, TRS can be very "special")
+Each folder will be focused on dedicated pricing model/features which can be interesting for Securities finance products but, if possible, interesting for quantitative finance frameworks in general
 
 III – Numerical results
 
-A pure mathematical work is useless without proper results and values. That wil be the second target : python + C++ code in order to highlight model implementations, including both PDE and Monte-Carlo methods
+A pure mathematical work is useless without proper results and values. That wil be the second target : python + C++ code in order to highlight results
