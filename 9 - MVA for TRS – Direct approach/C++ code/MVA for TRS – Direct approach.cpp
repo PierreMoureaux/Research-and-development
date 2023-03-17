@@ -3,6 +3,7 @@
 #include <random>
 #include <numeric>
 #include <cmath>
+#include <algorithm>
 
 //TRS datas
 auto T = 1.0;
